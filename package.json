@@ -1,0 +1,42 @@
+{
+  "name": "etc-keyboard-cli",
+  "version": "0.0.0",
+  "description": "Detect keyboard layout on Linux",
+  "license": "MIT",
+  "repository": "kevva/etc-keyboard-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "etc-keyboard": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "detect",
+    "keyboard",
+    "layout",
+    "locale",
+    "linux"
+  ],
+  "dependencies": {
+    "etc-keyboard": "^2.0.1",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}
